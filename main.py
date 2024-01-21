@@ -10,7 +10,7 @@ symbols = '!@#$%^&*().'
 
 string = lowerchar + upperchar+ symbols + numbers
 
-lenghtofpass = 14
+lenghtofpass = int(input('enter your password length'))
 
 password = "".join(random.sample(string,lenghtofpass))
 
